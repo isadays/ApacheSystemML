@@ -57,4 +57,7 @@ Then we can use these results to make predictions - Maximum a posteriori estimat
 C_m = argmax(c in {m,w}) p (C|x)  = argmax(c in {m,w}) p(x|c)p(c)/p(x) = argmax(c in {m,w}) p(x|c)p(c)
 
 
+### Support vector machines - classifier (best hyperplane) 
+
+
 
