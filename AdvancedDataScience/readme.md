@@ -51,3 +51,98 @@ Guidelines for feature creation:
 
  As feature engineering is an art on itself, this list cannot be exhaustive. It’s not expected to become an expert in this topic at this point. Most of it you’ll learn by practicing data science on real projects and talk to peers which might share their secrets and tricks with you.  
 
+
+
+Model Evaluation
+Model evaluation is a critical task in data science. This is one of the few measures business stakeholders are interested in. Model performance heavily influences business impact of a data science project. 
+ 
+
+Classification:
+
+ 
+
+·      Confusion Matrix
+
+·      Accuracy
+
+·      Precision
+
+·      Recall
+
+·      Specificity
+
+·      True positive rate
+
+·      True negative rate
+
+·      False positive rate
+
+·      False negative rate
+
+·      F1-score
+
+·      Gain and Lift
+
+·      Kolomogorov Smirnov
+
+·      Area Under ROC
+
+·      Gini Coefficient
+
+·      Concordant – Discordant ratio
+
+ 
+
+Regression:
+
+ 
+
+·      Root Mean Squared Error (RMSE)
+
+·      Mean Squared Error
+
+·      Mean Absolute Error (MAE)
+
+·      R-Squared
+
+·      Relative Squared Error
+
+·      Relative Absolute Error
+
+·      Sum of Differences
+
+·      ACF plot of residuals
+
+·      Histogram of residuals
+
+·      Residual plots against predictors
+
+·      Residual plots against fitted values
+
+ 
+
+ 
+
+Clustering:
+
+ 
+
+·      Adjusted Rand index
+
+·      Mutual Information
+
+·      Homogeneity completeness
+
+·      V-measure
+
+·      Fowlkes-Mallows
+
+·      Silhouette Coefficient Calinski-Harabaz¶
+
+ 
+Model Deployment
+
+Model deployment comes in many shapes. The key to everything is that the business insights that result from the model are made available to stakeholders. This can happen in various ways. At the simplest level a PDF report is generated (e.g. using a jupyter notebook in Watson Studio) and handed over to business stakeholders. Alternatively, the model is encapsulated behind a REST API and made either available to be consumed by a data product or sold internally or externally as a API (e.g. by using IBM Watson Machine Learning or Fabric for DeepLearning). 
+
+
+ 
